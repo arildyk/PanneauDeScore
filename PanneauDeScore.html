@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="PanneauDeScore.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <script type="text/javascript" src="PanneauDeScore.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> 
+    <title>Panneau de score</title>
+  </head>   
+  <body>
+    <h1 id="panneau">Foyer des patriotes</h1> 
+    <div class="temps" id="temps">0:00</div>
+    <audio id="buzzer">
+      <source src="Gym Buzzer.wav" type="audio/wav"/>
+      Votre navigateur ne supporte pas le son de l'avertisseur sonore.
+    </audio>
+    <div class="parent" id="parent">    
+      <div class="boitePoint">
+        <div class="q" id="qUn">
+          <h2 id="Equi">L'Équinoxe</h2>
+          <span class="qnombre" id="un"><strong>➊</strong></span>
+          <span class="qnombre" id="deux"><strong>➋</strong></span>    
+        </div>   
+        <div class="score" id="score">0</div>   
+      </div> 
+      <div class="boitePoint">
+        <div class="q" id="qDeux">
+          <span class="qnombre" id="trois"><strong>➌</strong></span>
+          <span class="qnombre" id="quatre"><strong>➍</strong></span>
+          <h2 id="Visiteurs">Visiteurs</h2>
+        </div>
+        <div class="score" id="scoreDeux">0</div>
+      </div>
+    </div>
+    <center>
+      <a href="http://equinoxe.cepeo.on.ca" target="_blank">
+        <img id="EquiLogo" src="EquinoxeLogo.png" alt="Equinoxe Logo"/>
+      </a>
+      <img src="signature.svg" id="signature">
+    </center>
+    <div id="Instructions">
+      <h2 id="instrTitre">Instructions</h2>    
+      <div class="blank"></div>
+      <div class="section" id="sectionUn">
+        <img class="section" id="Instr1" src="Instr1.svg" alt="Instructions1"/>  
+      </div>
+      <div class="blank"></div>
+      <div class="section" id="sectionDeux">
+        <img class="section" id="Instr2" src="Instr2.svg" alt="Instructions2"/> 
+      </div>
+      <div class="blank"></div>
+      <div class="section" id="sectionTrois">
+        <img class="section" id="Instr3" src="Instr3.svg" alt="Instructions3"/> 
+      </div>
+      <div class="blank"></div>
+      <div class="section" id="sectionQuatre">
+        <img class="section" id="Instr4" src="Instr4.svg" alt="Instructions4"/> 
+      </div>
+    </div> 
+  </body>
+</html>
