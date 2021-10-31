@@ -1,7 +1,7 @@
 # PanneauDeScore
 Un panneau de score créé avec HTML, CSS, et Javascript
 
-Site Web: https://arildyk.github.io/panneau-de-score/
+Site Web: https://arildyk.github.io/panneau-de-score/PanneauDeScore.html
 
 ## Instructions
 ### Pointage
